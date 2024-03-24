@@ -16,7 +16,9 @@
     <div class="tg">
         <div class="wrap lh-lg">
             <form action="register.php"  method="POST" id="form" class="row g-3 needs-validation" validate>
+            <li><a href="/screenshort.html">Сайт со скриншотами</a></li>
                 <h3 id="form">Форма</h3>
+                
                 <div class="col-auto">
                   <label for="validationCustom01" class="form-label">Фамилия Имя Отчество:</label>
                   <input type="text" placeholder="fio" name="login" class="form-control rounded-pill" id="validationCustom01" value="" required=""/>
@@ -95,7 +97,9 @@
                 <div class="col-auto">
                   <button class="btn btn-primary " type="submit">Сохранить</button>
                 </div>
+                
               </form>
+              
         </div>
     </div>
 </body>
