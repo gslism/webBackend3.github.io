@@ -16,7 +16,7 @@
     <div class="tg">
         <div class="wrap lh-lg">
             <form action="register.php"  method="POST" id="form" class="row g-3 needs-validation" validate>
-            <li><a href="/screenshort.html">Сайт со скриншотами</a></li>
+            <li><a href="http://u67293.kubsu-dev.ru/webBackend3.github.io/screenshort.html">Сайт со скриншотами</a></li>
                 <h3 id="form">Форма</h3>
                 
                 <div class="col-auto">
