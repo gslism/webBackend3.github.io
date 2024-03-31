@@ -10,16 +10,16 @@ $db = new PDO(
 );
 
 try {
-    $stmt = $db->prepare("INSERT INTO forma_u67293 (full_name, phone,email,birth_date,gender,lange_name,bio,contract_agreed) VALUES (:full_name, :phone,:email,:birth_date,:gender,:lange_name,:bio,:contract_agreed)");
-    $login = $_POST['login'];
-    $email = $_POST['email'];
-    $tel = $_POST['tel'];
-    $date = $_POST['date'];
-    $someGroupName = $_POST['someGroupName'];
-    $bio = $_POST['bio'];
-    $checkt = $_POST['checkt'];
-    $lange = json_encode($_POST['lange']);
-    $stmt->bindParam(':lange_name', $lange);
+    $stmt = $db->prepare("INSERT INTO users (full_name, phone,email,birth_date,gender,lange_name,bio,contract_agreed) VALUES (:full_name, :phone,:email,:birth_date,:gender,:lange_name,:bio,:contract_agreed)");
+    // $login = $_POST['login'];
+    // $email = $_POST['email'];
+    // $tel = $_POST['tel'];
+    // $date = $_POST['date'];
+    // $someGroupName = $_POST['someGroupName'];
+    // $bio = $_POST['bio'];
+    // $checkt = $_POST['checkt'];
+    // $lange = json_encode($_POST['lange']);
+    // $stmt->bindParam(':lange_name', $lange);
     $stmt->bindParam(':full_name', $login);
     $stmt->bindParam(':phone', $tel);
     $stmt->bindParam(':email', $email);
